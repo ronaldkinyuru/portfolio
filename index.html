@@ -13,60 +13,64 @@
       rel="shortcut icon"
       href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fbernardmarr%2F2022%2F01%2F05%2Fthe-10-tech-trends-that-will-transform-our-world%2F&psig=AOvVaw19joyfV-RuPCAMX6S3VzKj&ust=1700861927912000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPD-6cqK24IDFQAAAAAdAAAAABAE"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+   
   </head>
   <body>
     <div class="container">
       <!--────────────────Header───────────────-->
-      <header>
+      <header class="header">
         <a class="logo" href="#home">
-          <img
-            src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png"
-            alt="repl logo"
-          />
+          .Ronald
         </a>
-        <nav>
+        <div class="bx bx-menu" id="menu-icon">
+        </div>
+        <nav class="navbar">
           <ul class="nav-bar">
             <div class="bg"></div>
             <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
             <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
             <li><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
 
-          <div class="hamburger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
+          
         </nav>
       </header>
-      <main>
-        <!--─────────────────Home────────────────-->
-        <div id="home">
-          <div class="filter"></div>
-          <section class="intro">
-            <h3>
-              Your Name.
-              <hr />
-            </h3>
-            <p>Short Description.</p>
-            <p>Something more about yourself.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-
-            <!--────social media links─────-->
-
-            <div class="social-media">
-              <a href="#" target="_blank"><i class="fab fa-codepen"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
-          </section>
+     
+      <!-- home -->
+      <section class="home" id="home">
+      <div class="home-content">
+      <h1>Hi, i'm <span>Ronald Kinyuru</span></h1>
+        <div class="text-animate">
+        <h3>I'm a Frontend Developer</h3>
         </div>
+        <p>
+          I'm a Frontend Developer and a Content Creator. I'm a student of Mount Kenya University currently undergoing ALX one year software engineering program</p>
 
-        <!--───────────────Projects───────────────-->
+        <div class="btn-box">
+          <a href="#" class="btn">Hire me</a>
+          <a href="#" class="btn">Download CV</a>
+          <a href="#" class="btn">Let's Talk</a>
+      </div>
+        <!--────social media links─────-->
+
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="fab fa-codepen"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div><section class="home" id="home">
+
+      </section>
+      <main>
+     
+          <!--───────────────Projects───────────────-->
         <div id="projects">
           <h3>
             My Projects.
@@ -175,10 +179,12 @@
       </footer>
     </div>
     <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
+  This script places a badge on your  full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <script
       src="https://replit.com/public/js/replit-badge.js"
       theme="blue"
